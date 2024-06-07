@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/dist/css/style.min.css" />
+  </head>
+  <body>
+    <header style="background: linear-gradient(180deg, rgba(1, 1, 10, 1) 0%, rgba(26, 29, 32, 1) 64%)" class="bg-dark-subtle" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container-lg">
+          <a class="navbar-brand" href="#"><img src="assets/img/netflix_logo.png" alt="netflix_logo" width="100px" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll align-items-center column-gap-3" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22px"
+                    height="22px"
+                    fill="white
+              "
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+                  </svg>
+                </a>
+              </li>
+              <a href="./profile.html">
+                <img src="assets/img/avatar.png" width="50px" alt="avatar" />
+              </a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1>Account</h1>
+          <hr />
+          <div class="row">
+            <div class="col-lg-4">
+              <h5 class="text-black-50">MEMBERSHIP & BILLING</h5>
+              <button class="border-0 px-4 py-1 mt-2">Cancel Membership</button>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="d-flex justify-content-between">
+                <span class="fw-bold">student@strive.school</span>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Change account email</a>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-black-50">Password: **********</span>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Change password</a>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span class="text-black-50">Phone: 321 044 1279</span>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Change phone number</a>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-between">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-paypal" viewBox="0 0 16 16">
+                    <path
+                      d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z"
+                    />
+                  </svg>
+                  <span class="fw-bold text-black"><i class="fw-bold me-3">PayPal</i> student@strive.school</span>
+                </a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Update payment info</a>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Billing details</a>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-end">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Redeem gift card or promo code</a>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Where to buy gift cards</a>
+              </div>
+            </div>
+            <hr class="my-3" />
+            <div class="row">
+              <div class="col-lg-4">
+                <h5 class="text-black-50">PLAN DETAILS</h5>
+              </div>
+              <div class="col-lg-8">
+                <div class="d-flex justify-content-between">
+                  <span class="fw-bold text-black"
+                    >Premium
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ms-3" width="26" height="26" fill="currentColor" class="bi bi-badge-hd" viewBox="0 0 16 16">
+                      <path
+                        d="M7.396 11V5.001H6.209v2.44H3.687V5H2.5v6h1.187V8.43h2.522V11zM8.5 5.001V11h2.188c1.811 0 2.685-1.107 2.685-3.015 0-1.894-.86-2.984-2.684-2.984zm1.187.967h.843c1.112 0 1.622.686 1.622 2.04 0 1.353-.505 2.02-1.622 2.02h-.843z"
+                      />
+                      <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
+                    </svg>
+                  </span>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Change plan</a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-lg-4">
+                <h5 class="text-black-50">SETTINGS</h5>
+              </div>
+              <div class="col-lg-8">
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Parent controls</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Test participation</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Manage download devices</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Activate a device</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Recent device streaming activity</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Sign out of all devices</a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-lg-4">
+                <h5 class="text-black-50">MY PROFILE</h5>
+              </div>
+              <div class="col-lg-8">
+                <div class="d-flex justify-content-between">
+                  <span class="fw-bold text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ms-3" width="26" height="26" fill="currentColor" class="bi bi-badge-hd" viewBox="0 0 16 16">
+                      <path
+                        d="M7.396 11V5.001H6.209v2.44H3.687V5H2.5v6h1.187V8.43h2.522V11zM8.5 5.001V11h2.188c1.811 0 2.685-1.107 2.685-3.015 0-1.894-.86-2.984-2.684-2.984zm1.187.967h.843c1.112 0 1.622.686 1.622 2.04 0 1.353-.505 2.02-1.622 2.02h-.843z"
+                      />
+                      <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
+                    </svg>
+                    Strive Student
+                  </span>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Manage profile</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Add profile email</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Manage download devices</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Activate a device</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Recent device streaming activity</a>
+                </div>
+                <div>
+                  <a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Sign out of all devices</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
