@@ -110,104 +110,418 @@
       <div class="my-4">
         <div class="mb-5">
           <h3 class="mb-4">Trending Now</h3>
-          <div class="row gx-1 gy-2">
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#"><img src="assets/img/media/media0.webp" width="100%" alt="" /></a>
+
+          <!-- ******************************trending CarouselGrid su schermi xs*******************************-->
+
+          <div id="trendingXsCarouselGrid" class="carousel slide d-sm-none" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media0.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media1.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media2.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media3.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media4.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media5.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#trendingXsCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#trendingXsCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media1.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media2.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media3.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media4.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media5.webp" width="100%" alt="" />
-              </a>
+          </div>
+
+          <!-- ******************************trending imgCarouselGrid da schermi sm in su*******************************-->
+
+          <div id="imgCarouselGrid" class="carousel slide d-none d-sm-block" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media0.webp" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media1.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media2.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media3.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media4.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media5.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media17.jpg" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media18.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media19.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media20.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media21.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media22.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#imgCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#imgCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
         <div class="mb-5">
           <h3 class="mb-4">Watch It Again</h3>
-          <div class="row gx-1 gy-2">
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media6.jpg" width="100%" alt="" />
-              </a>
+
+          <!-- ******************************Watch it Again CarouselGrid su schermi xs*******************************-->
+
+          <div id="watchAgainXsCarouselGrid" class="carousel slide d-sm-none" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media7.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media8.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media9.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media10.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media11.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media12.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#watchAgainXsCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#watchAgainXsCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media7.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media8.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media9.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media10.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media11.jpg" width="100%" alt="" />
-              </a>
+          </div>
+
+          <!-- ******************************Watch it Again CarouselGrid da schermi sm in su*******************************-->
+
+          <div id="watchAgainCarouselGrid" class="carousel slide d-none d-sm-block" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media7.webp" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media8.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media9.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media10.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media11.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media12.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media19.webp" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media23.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media25.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media8.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media28.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media29.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#watchAgainCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#watchAgainCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
+
         <div>
           <h3 class="mb-4">New Releases</h3>
-          <div class="row gx-1 gy-2">
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media12.jpg" width="100%" alt="" />
-              </a>
+          <!-- ******************************New Releases CarouselGrid su schermi xs*******************************-->
+
+          <div id="newReleasesXsCarouselGrid" class="carousel slide d-sm-none" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media17.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media18.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media19.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media20.jpg" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media21.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12">
+                    <a href="#"><img src="assets/img/media/media22.webp" width="100%" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesXsCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#newReleasesXsCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media13.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media14.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 col-sm-4 col-md-3 col-lg-2">
-              <a href="#">
-                <img src="assets/img/media/media15.jpg" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media16.webp" width="100%" alt="" />
-              </a>
-            </div>
-            <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
-              <a href="#">
-                <img src="assets/img/media/media17.jpg" width="100%" alt="" />
-              </a>
+          </div>
+
+          <!-- ******************************New Releases CarouselGrid da schermi sm in su*******************************-->
+
+          <div id="newReleasesCarouselGrid" class="carousel slide d-none d-sm-block" data-bs-ride="true" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media17.jpg" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media18.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media19.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media20.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media21.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media22.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-1 gy-2">
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#"><img src="assets/img/media/media25.webp" width="100%" alt="" /></a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media27.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media26.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <a href="#">
+                      <img src="assets/img/media/media30.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media31.webp" width="100%" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-12 d-none col-sm-4 d-sm-inline col-md-3 d-md-none col-lg-2 d-lg-inline">
+                    <a href="#">
+                      <img src="assets/img/media/media32.jpg" width="100%" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesCarouselGrid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" fill="white" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#newReleasesCarouselGrid" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
