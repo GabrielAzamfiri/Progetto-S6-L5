@@ -13,10 +13,10 @@
 
 // 4. Include any default map overrides here
 
-
-
-
-
+// cambiato il border radius dei bottini
+$btn-border-radius: 0rem;
+// cambiato il border radius dei select
+$form-select-border-radius: 0rem;
 
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
