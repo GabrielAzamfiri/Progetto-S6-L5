@@ -52,10 +52,28 @@
             <button type="button" class="btn btn-outline-light">EDIT</button>
             <hr class="my-4" />
             <p class="fs-5">Autoplay controls</p>
-            <input type="checkbox" />
-            <span>Autoplay next episode in a series on all devices.</span> <br />
-            <input type="checkbox" />
-            <span>Autoplay previews while browsing on all devices.</span>
+            <div class="mb-2">
+              <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" />
+              <label class="btn btn-outline-secondary p-1" for="btncheck1">
+                <svg xmlns="http://www.w3.org/2000/svg" id="btncheck1Icon" width="25" height="25" fill="currentColor" class="bi bi-check-lg opacity-0" viewBox="0 0 16 16">
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+              </label>
+              <span>Autoplay next episode in a series on all devices.</span>
+            </div>
+            <div>
+              <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" />
+              <label class="btn btn-outline-secondary p-1" for="btncheck2">
+                <svg xmlns="http://www.w3.org/2000/svg" id="btncheck2Icon" width="25" height="25" fill="currentColor" class="bi bi-check-lg opacity-0" viewBox="0 0 16 16">
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+              </label>
+              <span>Autoplay previews while browsing on all devices.</span>
+            </div>
           </div>
         </div>
         <div class="row my-5">
@@ -77,5 +95,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const btncheck2 = document.querySelector("#btncheck2");
+      const btncheck2Icon = document.querySelector("#btncheck2Icon");
+      const btncheck1 = document.querySelector("#btncheck1");
+      const btncheck1Icon = document.querySelector("#btncheck1Icon");
+
+      //   funzione che al click della checkbox cambia l'opacità del svg interna
+      btncheck1.addEventListener("click", () => {
+        btncheck1Icon.classList.toggle("opacity1");
+      });
+      btncheck2.addEventListener("click", () => {
+        btncheck2Icon.classList.toggle("opacity1");
+      });
+    </script>
   </body>
 </html>

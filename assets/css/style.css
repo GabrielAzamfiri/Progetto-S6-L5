@@ -14654,4 +14654,8 @@ textarea.form-control-lg {
 .carousel-control-prev, .carousel-control-next {
   width: unset;
   margin-inline: 0.6rem;
+}
+
+.opacity1 {
+  opacity: 1 !important;
 }/*# sourceMappingURL=style.css.map */

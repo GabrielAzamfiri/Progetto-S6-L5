@@ -111,3 +111,7 @@ $font-sizes: map-merge($font-sizes, $custom-font-sizes);
     width: unset;
     margin-inline: 0.6rem;
 }
+
+.opacity1{
+    opacity: 1 !important; 
+}
