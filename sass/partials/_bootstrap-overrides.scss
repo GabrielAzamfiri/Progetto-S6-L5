@@ -13,10 +13,37 @@
 
 // 4. Include any default map overrides here
 
-// cambiato il border radius dei bottini
+// cambiato il border radius dei bottoni
 $btn-border-radius: 0rem;
 // cambiato il border radius dei select
 $form-select-border-radius: 0rem;
+
+// add new colore bordi
+$grigio-strano: #808080;
+
+$add-color:(
+  "grigio-strano": $grigio-strano
+);
+$theme-colors: map-merge($theme-colors, $add-color);
+
+// ***********add breakpoints*******************************
+
+$netflix-breakpoints:(
+   lg-plus: 1100px,
+   xl-plus: 1280px,
+   xxl-plus: 1460px
+);
+$grid-breakpoints: map-merge($grid-breakpoints, $netflix-breakpoints);
+
+
+// *************add dimensioni container *************************************
+
+$netflix-container-max-widths:(
+   lg-plus: 1050px,
+   xl-plus: 1230px,
+   xxl-plus: 1410px
+);
+$container-max-widths: map-merge($container-max-widths, $netflix-container-max-widths);
 
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
