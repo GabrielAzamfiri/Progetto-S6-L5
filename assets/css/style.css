@@ -9286,6 +9286,18 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.9rem !important;
+}
+
+.fs-8 {
+  font-size: 0.8rem !important;
+}
+
+.fs-9 {
+  font-size: 0.7rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -14631,4 +14643,15 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#trendingCarouselGrid img:hover,
+#watchAgainCarouselGrid img:hover,
+#newReleasesCarouselGrid img:hover {
+  scale: 1.2;
+  z-index: 2;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: unset;
+  margin-inline: 0.6rem;
 }/*# sourceMappingURL=style.css.map */
